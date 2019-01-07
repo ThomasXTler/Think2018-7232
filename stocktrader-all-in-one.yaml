@@ -343,7 +343,7 @@ spec:
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-# annotations:
+# annotations (v4.0):
 # ingress.kubernetes.io/rewrite-target: /trader
   name: trader-ingress
 spec:
